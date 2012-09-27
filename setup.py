@@ -11,6 +11,7 @@ setup(
     author='Rodolfo Puig',
     author_email='rodolfo.puig@nbcuni.com',
     description='Telemundo Libraries',
+    download_url='http://www.telemundoeventos.com/python/telemundo/telemundo-0.1.1.tar.gz',
     keywords='Telemundo',
     license='MIT',
     packages=find_packages(),
