@@ -1,6 +1,6 @@
-# TelemundoPy #
+# Telemundo Libraries #
 
-Provides access to Telemundo's public Python libraries.
+Provides access to Telemundo's public libraries.
 
 ## Submitting bugs and feature requests ##
 
@@ -12,4 +12,4 @@ Rodolfo Puig - <rodolfo.puig@nbcuni.com> - <https://twitter.com/rpuig_nbcuni><br
 
 ## License ##
 
-TelemundoPy is licensed under the MIT License - see the LICENSE file for details
+This package is licensed under the MIT License - see the LICENSE file for details

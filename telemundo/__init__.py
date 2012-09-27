@@ -1,14 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-    telemundo
-    ~~~~~~~~~
+VERSION = (0, 1, 1, 'beta', 0)
 
-    This package contains all of Telemundo's public python libraries.
-
-    :copyright: (c) 2012 by Telemundo Digital Media
-    :license: MIT, see LICENSE for more details.
-"""
-
-__version__ = '0.1'
-
-from .subtitles import parser
+def get_version(*args, **kwargs):
+    # Don't litter telemundo/__init__.py with all the get_version stuff.
+    # Only import if it's actually called.
+    from telemundo.utils.version import get_version
+    return get_version(*args, **kwargs)

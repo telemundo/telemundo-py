@@ -2,16 +2,25 @@
 
 from setuptools import setup, find_packages
 
+version = __import__('telemundo').get_version()
+
 setup(
-    name='TelemundoPy',
-    version='0.1-dev',
+    name='telemundo',
+    version=version,
     url='https://github.com/telemundo/telemundo-py',
     author='Rodolfo Puig',
     author_email='rodolfo.puig@nbcuni.com',
-    description='Telemundo Python Libraries',
+    description='Telemundo Libraries',
+    download_url='https://github.com/telemundo/telemundo-py/tarball/master',
     keywords='Telemundo',
     license='MIT',
     packages=find_packages(),
     include_package_data=True,
-    platforms='any'
+    platforms='any',
+    classifiers = [
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Topic :: Software Development :: Libraries :: Python Modules'
+    ]
 )
