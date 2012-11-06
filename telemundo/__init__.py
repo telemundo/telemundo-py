@@ -1,4 +1,4 @@
-VERSION = (0, 1, 1, 'final', 0)
+VERSION = (0, 1, 3, 'final', 0)
 
 def get_version(*args, **kwargs):
     # Don't litter telemundo/__init__.py with all the get_version stuff.

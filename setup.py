@@ -11,7 +11,6 @@ setup(
     author='Rodolfo Puig',
     author_email='rodolfo.puig@nbcuni.com',
     description='Telemundo Py',
-    download_url='http://www.telemundoeventos.com/python/telemundo/telemundo-0.1.1.tar.gz',
     keywords='Telemundo',
     license='MIT',
     packages=find_packages(),
@@ -21,6 +20,7 @@ setup(
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ]
 )

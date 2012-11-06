@@ -1,4 +1,11 @@
+# Python
 *.egg-info
 *.pot
 *.py[co]
 build/
+dist/
+
+# Eclipse
+.project
+.pydevproject
+.settings/
